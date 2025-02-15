@@ -4,8 +4,9 @@ This AI Automation Agent utilizes advanced natural language processing (NLP) and
 ---
 
 ## 📋 Requirements
-**Docker**: For containerized deployment.
-**AI Proxy Token**: Required for accessing AI functionalities.
+-**Docker**: For containerized deployment.
+
+-**AI Proxy Token**: Required for accessing AI functionalities.
 
 ---
 
