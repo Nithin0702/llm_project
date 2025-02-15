@@ -1,21 +1,11 @@
-# 🚀 LLM-based Automation Agent  
-
-Welcome to the **LLM-based Automation Agent**! This intelligent automation agent leverages natural language processing and LLM capabilities to handle a variety of tasks seamlessly.  
-
----
-
-## 🌟 Features  
-- 🤖 **Task Parsing**: Powered by GPT-4o-Mini for accurate task interpretation.  
-- 🔒 **Secure File Operations**: Ensures safe and secure handling of sensitive files.  
-- ⚡ **Multi-Task Support**: Efficiently handles multiple task types.  
-- 🌐 **API-Based Execution**: Executes tasks using powerful API integrations.  
+🤖 AI Automation Agent
+This AI Automation Agent utilizes advanced natural language processing (NLP) and LLM capabilities to automate tasks efficiently.
 
 ---
 
-## 📋 Prerequisites  
-Make sure you have the following installed:  
-- **Docker**: For containerization and deployment.  
-- **AI Proxy Token**: Required for accessing LLM functionalities.  
+📋 Requirements
+Docker: For containerized deployment.
+AI Proxy Token: Required for accessing AI functionalities.
 
 ---
 
@@ -23,10 +13,8 @@ Make sure you have the following installed:
 
 ### 1. Clone the Repository  
 ```sh
-git clone https://github.com/anony0900/my-llm.git
-```
-``` 
-cd my-llm 
+git clone https://github.com/Nithin0702/llm_project.git
+
 ```
 
 ### 2. Install Dependencies  
@@ -48,10 +36,10 @@ python run.py
 ### 5. Using Docker  
 ### Build the image  
 ```
-docker build -t llm-agent .  
+docker build -t auto-llm .  
 ```
 
 ### Run the container  
 ```
-docker run --env-file .env -p 8000:8000 llm-agent  
+docker run --env-file .env -p 8000:8000 auto-llm  
 ```
