@@ -10,7 +10,7 @@ This AI Automation Agent utilizes advanced natural language processing (NLP) and
 
 ---
 
-## ⚙️ Installation & Run  
+## Installation & Run  
 
 ### 1. Clone the Repository  
 ```sh
@@ -37,10 +37,10 @@ python run.py
 ### 5. Using Docker  
 ### Build the image  
 ```
-docker build -t auto-llm .  
+docker build -t llm-image .  
 ```
 
 ### Run the container  
 ```
-docker run --env-file .env -p 8000:8000 auto-llm  
+docker run --env-file .env -p 8000:8000 llm-image
 ```
